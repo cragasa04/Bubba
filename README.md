@@ -1,2 +1,2 @@
 # Bubba
-For My Bubba. I love you <3
+For Bubba <3
