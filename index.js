@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () =>{
         button.style.left = randomLeft + 'px';
         button.style.top = randomTop + 'px';
         button.innerText = messages[num];
-        button.style.fontSize = '2vh';
+        button.style.fontSize = '4vh';
         if (num === messages.length - 1){
             num = 0;
         }
