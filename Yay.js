@@ -10,5 +10,5 @@ play.addEventListener("click", () => {
 });
 
 document.getElementById('continueBtn').addEventListener('click', () => {
-    window.location = '../Flower/Flower.html';
+    window.location = 'Flower.html';
 });

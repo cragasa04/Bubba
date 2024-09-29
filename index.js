@@ -36,5 +36,5 @@ window.addEventListener('DOMContentLoaded', () =>{
 });
 
 document.getElementById('yesBtn').addEventListener('click', () => {
-    window.location = '../Yay/Yay.html';
+    window.location = 'Yay.html';
 });

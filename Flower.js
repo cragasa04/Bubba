@@ -17,7 +17,7 @@ play.addEventListener("click", () => {
 })
 
 function nextPage(){
-    window.location = '../ILoveYouLetter/letter.html';
+    window.location = 'letter.html';
 }
 
 
