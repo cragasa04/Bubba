@@ -1,0 +1,34 @@
+.girlPixel {
+    height: 30vh;
+    width: 30vh;
+    align-self: flex-start;
+    margin-top: 20vh;
+    margin-right: 9vh;
+    -webkit-user-drag: none; /* For Safari */
+    user-drag: none; /* Non-standard */
+    -webkit-touch-callout: none; /* Prevent callout on iOS */
+    user-select: none; /* Prevent text selection */
+    outline: none; /* Remove outline on focus */
+    pointer-events: none; /* Prevent any pointer events */
+}
+
+#yesBtn{
+    position: relative;
+    font-size: 3rem;
+}
+
+#noBtn{
+    position: absolute;
+    font-size: 3rem;
+}
+
+.question{
+    font-size: 8vh;
+    margin-top: -3vh;
+    margin-bottom: 1vh;
+    color: white;
+}
+
+.buttons{
+    margin-right: 40vh;
+}

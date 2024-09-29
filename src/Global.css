@@ -12,23 +12,6 @@
     font-style: normal;
 }
 
-.girlPixel {
-    height: 30vh;
-    width: 30vh;
-    align-self: flex-start;
-    margin-top: 20vh;
-    margin-right: 9vh;
-    -webkit-user-drag: none; /* For Safari */
-    user-drag: none; /* Non-standard */
-    -webkit-touch-callout: none; /* Prevent callout on iOS */
-    user-select: none; /* Prevent text selection */
-    outline: none; /* Remove outline on focus */
-    pointer-events: none; /* Prevent any pointer events */
-}
-
-.buttons{
-   margin-right: 21vh;
-}
 
 button{
     color: white;
@@ -41,16 +24,6 @@ button{
             inset -4px 2px 1px 1px #71797E,
             inset -4px -2px 1px 1px silver,
             inset 4px 0px 1px 1px silver;
-}
-
-#yesBtn{
-    position: relative;
-    font-size: 3rem;
-}
-
-#noBtn{
-    position: absolute;
-    font-size: 3rem;
 }
 
 .btn:hover {
@@ -91,13 +64,6 @@ button{
     height: 100vh;
 }
 
-.question{
-    font-size: 8vh;
-    margin-top: -3vh;
-    margin-bottom: 1vh;
-    color: white;
-}
-
 body{
     background-image: url("../Media/Ocean_5/5.png");
     background-repeat: no-repeat;
@@ -106,4 +72,8 @@ body{
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+.hidden{
+    display: none;
 }

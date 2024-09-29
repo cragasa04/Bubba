@@ -1,0 +1,24 @@
+#confettiBtn{
+    font-size: 3rem;
+    position: relative;
+}
+
+#continueBtn{
+    font-size: 3rem;
+    position: relative;
+}
+
+.happyCat{
+    margin-top: 16vh;
+    width: 30vh;
+    height: 30vh;
+}
+
+.yayMsg{
+    font-size: 10vh;
+    color: white;
+}
+
+p{
+    color: white;
+}
