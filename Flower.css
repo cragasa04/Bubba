@@ -14,6 +14,7 @@
 .forNadz{
     color: white;
     font-size: 4.5rem;
+    padding: 2vh;
 }
 
 .Iwish{
@@ -23,7 +24,7 @@
 }
 
 .topText{
-    margin-top: -12vh;
+    margin-top: -14vh;
     text-align: center;
 }
 
