@@ -1,0 +1,109 @@
+.pixelify-sans-normal {
+                    font-family: "Pixelify Sans", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+
+.pixelify-sans-bold {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.girlPixel {
+    height: 30vh;
+    width: 30vh;
+    align-self: flex-start;
+    margin-top: 20vh;
+    margin-right: 9vh;
+    -webkit-user-drag: none; /* For Safari */
+    user-drag: none; /* Non-standard */
+    -webkit-touch-callout: none; /* Prevent callout on iOS */
+    user-select: none; /* Prevent text selection */
+    outline: none; /* Remove outline on focus */
+    pointer-events: none; /* Prevent any pointer events */
+}
+
+.buttons{
+   margin-right: 21vh;
+}
+
+button{
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+    background-color: #B11313;
+    border: 0px;
+    box-shadow:
+            inset -4px 2px 1px 1px #71797E,
+            inset -4px -2px 1px 1px silver,
+            inset 4px 0px 1px 1px silver;
+}
+
+#yesBtn{
+    position: relative;
+    font-size: 3rem;
+}
+
+#noBtn{
+    position: absolute;
+    font-size: 3rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #DF1F2D;
+}
+
+.btn:active {
+    top: 3px;
+}
+
+.btn::after {
+    content: '';
+    background: black;
+    position: absolute;
+    left: -2.5%;
+    top: 0;
+    width: 105%;
+    height: 100%;
+    z-index: -1;
+}
+
+.btn::before {
+    content: '';
+    background: black;
+    position: absolute;
+    left: 0;
+    top: -5%;
+    width: 100%;
+    height: 113%;
+    z-index: -1;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.question{
+    font-size: 8vh;
+    margin-top: -3vh;
+    margin-bottom: 1vh;
+    color: white;
+}
+
+body{
+    background-image: url("../Media/Ocean_5/5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
