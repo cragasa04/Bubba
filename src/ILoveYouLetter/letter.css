@@ -1,0 +1,37 @@
+#rolledScroll{
+    width: 40vh;
+    height: 40vh;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.unroll{
+    margin-top: -10vh;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+#unrolledScroll{
+    width: 150vh;
+    height: 120vh;
+    margin-top: -10vh;
+    margin-left: -6vh;
+}
+
+#letter{
+    /*position: absolute;*/
+    /*font-size: 10rem;*/
+    /*text-align: center;*/
+    /*z-index: 1;*/
+
+    position: absolute; /* Position the text absolutely */
+    top: 47%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's dimensions */
+    color: black;
+    font-size: 1.6rem;
+    text-align: center; /* Center the text */
+    z-index: 1; /* Ensure the text is on top */
+    width: 60vh;
+}
