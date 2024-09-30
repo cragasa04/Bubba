@@ -13,17 +13,17 @@
 }
 
 
-button{
+.btn{
     color: white;
-    width: 200px;
-    height: 70px;
-    margin: 10px;
+    width: 12rem;
+    height: 4rem;
+    margin: 1rem;
     background-color: #B11313;
-    border: 0px;
+    border: none;
     box-shadow:
-            inset -4px 2px 1px 1px #71797E,
-            inset -4px -2px 1px 1px silver,
-            inset 4px 0px 1px 1px silver;
+            inset -0.25rem 0.125rem 0.0625rem 0.0625rem #71797E,
+            inset -0.25rem 0.125rem 0.0625rem 0.0625rem silver,
+            inset 0.25rem 0px 0.0625rem 0.0625rem silver;
 }
 
 .btn:hover {
@@ -32,7 +32,7 @@ button{
 }
 
 .btn:active {
-    top: 3px;
+    top: 0.3125rem;
 }
 
 .btn::after {

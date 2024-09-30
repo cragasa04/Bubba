@@ -3,6 +3,15 @@
     height: 40vh;
     text-align: center;
     margin-top: 30vh;
+    -webkit-user-drag: none; /* For Safari */
+    user-drag: none; /* Non-standard */
+    -webkit-touch-callout: none; /* Prevent callout on iOS */
+    user-select: none; /* Prevent text selection */
+    outline: none; /* Remove outline on focus */
+    pointer-events: none; /* Prevent any pointer events */
+}
+#rolledScroll:hover{
+    cursor: pointer;
 }
 
 .unroll{
@@ -34,4 +43,10 @@
     text-align: center; /* Center the text */
     z-index: 1; /* Ensure the text is on top */
     width: 60vh;
+    -webkit-user-drag: none; /* For Safari */
+    user-drag: none; /* Non-standard */
+    -webkit-touch-callout: none; /* Prevent callout on iOS */
+    user-select: none; /* Prevent text selection */
+    outline: none; /* Remove outline on focus */
+    pointer-events: none; /* Prevent any pointer events */
 }

@@ -4,11 +4,23 @@
 .yellowFlower{
     width: 70vh;
     height: 70vh;
+    -webkit-user-drag: none; /* For Safari */
+    user-drag: none; /* Non-standard */
+    -webkit-touch-callout: none; /* Prevent callout on iOS */
+    user-select: none; /* Prevent text selection */
+    outline: none; /* Remove outline on focus */
+    pointer-events: none; /* Prevent any pointer events */
 }
 
 .orangeFlower{
     width: 70vh;
     height: 70vh;
+    -webkit-user-drag: none; /* For Safari */
+    user-drag: none; /* Non-standard */
+    -webkit-touch-callout: none; /* Prevent callout on iOS */
+    user-select: none; /* Prevent text selection */
+    outline: none; /* Remove outline on focus */
+    pointer-events: none; /* Prevent any pointer events */
 }
 
 .forNadz{

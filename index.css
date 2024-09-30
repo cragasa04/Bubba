@@ -1,9 +1,8 @@
 .girlPixel {
     height: 30vh;
     width: 30vh;
-    align-self: flex-start;
+    text-align: center;
     margin-top: 20vh;
-    margin-right: 9vh;
     -webkit-user-drag: none; /* For Safari */
     user-drag: none; /* Non-standard */
     -webkit-touch-callout: none; /* Prevent callout on iOS */
@@ -27,8 +26,10 @@
     margin-top: -3vh;
     margin-bottom: 1vh;
     color: white;
+    text-align: center;
 }
 
 .buttons{
-    margin-right: 40vh;
+    margin-right: 10%;
+
 }
