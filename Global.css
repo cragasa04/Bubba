@@ -65,13 +65,14 @@
 }
 
 body{
-    background-image: url("Media/Ocean_5/5.png");
+    background-image: url("Media/pastel-pink-checkered-background-jtxz2v66tlo2cppv.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    background-size: cover;
 }
 
 .hidden{
